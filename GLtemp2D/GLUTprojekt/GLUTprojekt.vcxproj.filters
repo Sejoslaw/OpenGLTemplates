@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JDS">
+      <UniqueIdentifier>{db44d1f5-a4d4-4630-b665-453cb1be3b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JDS\header">
+      <UniqueIdentifier>{6c6cf37c-6add-45f4-9638-59b5543f6340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JDS\source">
+      <UniqueIdentifier>{9bf52019-8fca-4798-baac-7da6b54ca60c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>JDS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderWindow.cpp">
+      <Filter>JDS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>JDS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>JDS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>JDS\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>JDS\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JDS.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderWindow.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboadr.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>JDS\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
